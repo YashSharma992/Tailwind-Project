@@ -3,17 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tailwind color example</title>
+    <title>Responsive tailwind example</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./output.css">
 </head>
-<body class=" bg-gray-100 p-8">
-    <h1 class="text-3xl font-bold text-center mb-6">Grid Layout example</h1>
-        <div class="grid grid-cols-3 gap-4">
-            <div class="bg-blue-500 text-white p-4 rounded">Column 1</div>
-            <div class="bg-green-500 text-white p-4 rounded">Column 2</div>
-            <div class="bg-red-500 text-white p-4 rounded">Column 3</div>
-        
-        </div>   
+<body class=" bg-gray-100 p-6">
+    <div class="bg-blue-500 text-white p-4 sm:p-6 md:p-10 lg:p-14 rounded shadow">
+        <h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold">Responsive Box</h2>
+        <p class="mb-4">This is a simple example of a responsive layout using Tailwind CSS.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="bg-white p-4 rounded shadow">Column 1</div>
+            <div class="bg-white p-4 rounded shadow">Column 2</div>
+            <div class="bg-white p-4 rounded shadow">Column 3</div>
+        </div>
+    </div>
+      
 </body>
 </html>
