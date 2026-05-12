@@ -1,22 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <title>Responsive Tailwind Example</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Typography in Tailwind CSS</title>
 </head>
+<body class="bg-gray-100 p-10">
 
-<body class="bg-gray-100 p-6">
+    <div class="max-w-4xl mx-auto">
+        
+        <!-- Main Title -->
+        <h1 class="text-4xl font-bold text-center mb-4">
+            Typography in Tailwind CSS
+        </h1>
 
-  <div class="bg-blue-500 text-white p-4 sm:p-6 md:p-10 lg:p-14 rounded-lg">
-    <h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold">
-      Responsive Box
-    </h2>
-    <p class="text-sm sm:text-base md:text-lg lg:text-xl mt-2">
-      This text and padding grow as screen size increases using Tailwind breakpoints.
-    </p>
-  </div>
+        <!-- Subtitle paragraph -->
+        <p class="text-gray-700 text-center mb-8">
+            Tailwind CSS provides powerful typography classes that allow you to control 
+            font size, weight, color, alignment, and spacing without writing custom CSS. 
+            This makes styling text simple, fast, and responsive.
+        </p>
+
+        <!-- Heading Example -->
+        <h2 class="text-2xl font-semibold mb-2">Heading Example</h2>
+
+        <!-- Paragraph -->
+        <p class="text-gray-600 mb-6">
+            This is an example paragraph that shows how text size, line-height, 
+            and color improve readability.
+        </p>
+
+        <!-- Tracking Wide Subtitle -->
+        <p class="text-blue-700 tracking-wide text-lg mb-6">
+            Tracking Wide Subtitle
+        </p>
+
+        <!-- Centered Uppercase Highlight -->
+        <p class="text-green-600 text-center uppercase font-semibold text-lg">
+            Centered Uppercase Highlight
+        </p>
+
+    </div>
 
 </body>
 </html>
